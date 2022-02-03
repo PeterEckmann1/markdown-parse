@@ -81,7 +81,6 @@ public class MarkdownParseTest{
         String contents = Files.readString(fileName);
        
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        System.out.println(contents);
     
         List<String> expectedOutput = List.of();
 
@@ -93,7 +92,6 @@ public class MarkdownParseTest{
         String contents = Files.readString(fileName);
        
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        System.out.println(contents);
     
         List<String> expectedOutput = List.of();
 
@@ -105,7 +103,6 @@ public class MarkdownParseTest{
         String contents = Files.readString(fileName);
        
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        System.out.println(contents);
     
         List<String> expectedOutput = List.of();
 
@@ -117,7 +114,6 @@ public class MarkdownParseTest{
         String contents = Files.readString(fileName);
        
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        System.out.println(contents);
     
         List<String> expectedOutput = List.of();
 
@@ -129,7 +125,6 @@ public class MarkdownParseTest{
         String contents = Files.readString(fileName);
        
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        System.out.println(contents);
     
         List<String> expectedOutput = List.of("https://something.com","some-page.html");
 
@@ -140,7 +135,6 @@ public class MarkdownParseTest{
         String contents = Files.readString(fileName);
        
         ArrayList<String> links = MarkdownParse.getLinks(contents);
-        System.out.println(contents);
     
         List<String> expectedOutput = List.of();
 
