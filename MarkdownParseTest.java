@@ -129,7 +129,8 @@ public class MarkdownParseTest{
         List<String> expectedOutput = List.of("https://something.com","some-page.html");
 
         assertEquals(expectedOutput, links);
-    }@Test
+    }
+    @Test
     public void testGetLinksa() throws IOException{
         Path fileName = Path.of("test-file1.md");
         String contents = Files.readString(fileName);
@@ -139,5 +140,9 @@ public class MarkdownParseTest{
         List<String> expectedOutput = List.of();
 
         assertEquals(expectedOutput, links);
+    }
+    @Test
+    public void failTest() {
+        assertEquals(true, false);
     }
 }
